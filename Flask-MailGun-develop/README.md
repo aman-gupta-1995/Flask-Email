@@ -12,7 +12,7 @@
 Flask-MailGun Flask extension to use the [MailGun](https://mailgun.com) email parsing service for sending and receiving emails.
 
 ## What it does
-
+ 
 Flask-MailGun allows you to configure your connection into the MailGun api so that you can
 - Send emails
 - Set up routes
