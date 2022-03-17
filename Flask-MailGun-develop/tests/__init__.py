@@ -8,7 +8,7 @@ import unittest
 from mock import patch, MagicMock 
 
 from flask import Flask
-import flask_mailgun
+import flask_mailgun 
 import flask_mailgun.api
 from tests import config
 
