@@ -6,7 +6,7 @@
 ['stripped-signature',
  'Spamdiagnosticmetadata',
  'From', 
- 'X-Envelope-From', 
+ 'X-Envelope-From',  
  'X-Ms-Tnef-Correlator',
  'To',
  'Thread-Topic',
