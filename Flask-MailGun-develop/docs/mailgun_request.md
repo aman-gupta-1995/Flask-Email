@@ -5,7 +5,7 @@
 
 ['stripped-signature',
  'Spamdiagnosticmetadata',
- 'From',
+ 'From', 
  'X-Envelope-From', 
  'X-Ms-Tnef-Correlator',
  'To',
