@@ -13,7 +13,7 @@ help :
  
 clean :  
 	-rm -f MANIFEST 
-	-rm -rf dist/
+	-rm -rf dist/ 
 	-rm -rf build/
 
 cleancov :
