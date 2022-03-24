@@ -17,7 +17,7 @@ clean :
 	-rm -rf build/
 
 cleancov :
-	-rm -rf htmlcov/
+	-rm -rf htmlcov/ 
 	-coverage combine
 	-coverage erase
 
