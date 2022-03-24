@@ -11,7 +11,7 @@ help :
 	@echo "  venv            setup virtual env"      
 	@echo "  update_venv     install dependancies"      
      
-clean :    
+clean :     
 	-rm -f MANIFEST   
 	-rm -rf dist/   
 	-rm -rf build/
