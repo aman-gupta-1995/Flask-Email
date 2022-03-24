@@ -5,7 +5,7 @@ help :
 	@echo "Please use 'make <target>' where <target> is one of"
 	@echo "  clean           remove temporary files created by build tools"
 	@echo "  cleanmeta       removes all META-* and egg-info/ files created by build tools" 
-	@echo "  cleancov        remove all files related to coverage reports"  
+	@echo "  cleancov        remove all files related to coverage reports"   
 	@echo "  cleanall        all the above + tmp files from development tools"    
 	@echo "  dist            make a source and wheel distribution"   
 	@echo "  venv            setup virtual env"      
