@@ -9,7 +9,7 @@ help :
 	@echo "  cleanall        all the above + tmp files from development tools" 
 	@echo "  dist            make a source and wheel distribution"  
 	@echo "  venv            setup virtual env"     
-	@echo "  update_venv     install dependancies"    
+	@echo "  update_venv     install dependancies"     
   
 clean :  
 	-rm -f MANIFEST 
