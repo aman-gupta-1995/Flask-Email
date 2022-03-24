@@ -1,4 +1,4 @@
-PATH := ./redis-git/src:${PATH}
+PATH := ./redis-git/src:${PATH} 
 MAILGUN_API_KEY='testtesttest' 
 
 help :
