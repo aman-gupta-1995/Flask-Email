@@ -5,7 +5,7 @@ Flask-MailGun
 Versions| |License| |Downloads|
 
 Flask-MailGun Flask extension to use the
-`MailGun <https://mailgun.com>`__ email parsing service for sending and
+`MailGun <https://mailgun.com>`__ email parsing service for sending and 
 receiving emails.
 
 What it does
