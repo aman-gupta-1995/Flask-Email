@@ -1,5 +1,5 @@
 PATH := ./redis-git/src:${PATH}
-MAILGUN_API_KEY='testtesttest'
+MAILGUN_API_KEY='testtesttest' 
 
 help :
 	@echo "Please use 'make <target>' where <target> is one of"
