@@ -15,7 +15,7 @@ from collections import namedtuple
 
 from tests import MailgunTestBase
 from tests.fixtures.email import make_email_request, make_email, sign_email
-
+   
 
 class ReceiveMessageTest(MailgunTestBase):
 
