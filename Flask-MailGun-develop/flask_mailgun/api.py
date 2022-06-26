@@ -3,7 +3,7 @@
 Created on Thur Apr 20 13:56:10 2017
 
 @author: richard.mathie@amey.co.uk
-"""
+""" 
 import requests
 # For verification with the MailgunAPI
 import hashlib
