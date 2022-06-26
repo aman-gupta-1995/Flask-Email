@@ -14,7 +14,7 @@ help :
 clean :   
 	-rm -f MANIFEST  
 	-rm -rf dist/    
-	-rm -rf build/
+	-rm -rf build
  
 cleancov :
 	-rm -rf htmlcov/ 
