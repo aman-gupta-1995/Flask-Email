@@ -30,7 +30,7 @@ class MailGunAPI(object):
         self.dest = '/messages/'
         if self.api_key is None:
             raise MailGunException("No mailgun key supplied.")
-
+ 
     def send(self, message, envelope_from=None):
         """Verifies and sends message.
         :param message: Message instance.
