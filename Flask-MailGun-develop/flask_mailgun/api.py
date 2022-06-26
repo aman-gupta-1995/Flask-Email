@@ -58,7 +58,7 @@ class MailGunAPI(object):
     def send_message(self, *args, **kwargs):
         """Shortcut for send(msg).
         Takes same arguments as Message constructor.
-        :versionadded: 0.3.5
+        :versionadded: 0.3.5 
         """
 
         self.send(Message(*args, **kwargs))
