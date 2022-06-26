@@ -8,7 +8,7 @@ import requests
 # For verification with the MailgunAPI
 import hashlib
 import hmac
-import json
+import json 
 import os
 
 from collections import defaultdict
