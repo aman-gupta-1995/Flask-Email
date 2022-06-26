@@ -4,7 +4,7 @@
 1. ========================== Fieds of request.form: ==========================
 
 ['stripped-signature',
- 'Spamdiagnosticmetadata', 
+ 'Spamdiagnosticmetadata',
  'From',  
  'X-Envelope-From',  
  'X-Ms-Tnef-Correlator',
