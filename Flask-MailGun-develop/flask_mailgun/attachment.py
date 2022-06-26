@@ -30,7 +30,7 @@ ALL_EXTENSIONS = EXTENSIONS["TEXT"] \
                  + EXTENSIONS["IMAGE"] \
                  + EXTENSIONS["AUDIO"] \
                  + EXTENSIONS["DATA"] \
-                 + EXTENSIONS["ARCHIVE"]
+                 + EXTENSIONS["ARCHIVE"] 
 
 
 @decorator
