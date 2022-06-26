@@ -15,7 +15,7 @@ clean :
 	-rm -f MANIFEST   
 	-rm -rf dist/    
 	-rm -rf build/
-  
+ 
 cleancov :
 	-rm -rf htmlcov/ 
 	-coverage combine
