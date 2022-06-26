@@ -11,7 +11,7 @@ import hmac
 import json 
 import os
 
-from collections import defaultdict
+from collections import defaultdict 
 
 from .utils import MailGunException
 from .message import Message
