@@ -12,7 +12,7 @@ help :
 	@echo "  update_venv     install dependancies"       
       
 clean :     
-	-rm -f MANIFEST    
+	-rm -f MANIFEST   
 	-rm -rf dist/    
 	-rm -rf build/
   
