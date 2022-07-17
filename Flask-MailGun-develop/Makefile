@@ -5,16 +5,12 @@ help :
 	@echo "Please use 'make <target>' where <target> is one of"
 	@echo "  clean           remove temporary files created by build tools"
 	@echo "  cleanmeta       removes all META-* and egg-info/ files created by build tools" 
-	@echo "  cleancov        remove all files related to coverage reports"   
+	@echo "  cleancov        remove all files related to coverage reports"    
 	@echo "  cleanall        all the above + tmp files from development tools"     
 	@echo "  dist            make a source and wheel distribution"    
 	@echo "  venv            setup virtual env"      
-	@echo "  update_venv     install dependancies"      
-      
-clean :      
-	-rm -f MANIFEST   
-	-rm -rf dist/    
-	-rm -rf build/
+	@echo "  update_venv     install dependancies"       
+
  
 cleancov :
 	-rm -rf htmlcov/ 
@@ -28,7 +24,7 @@ cleanall : clean cleancov cleanmeta
 	-find . -type f -name "*~" -exec rm -f "{}" \;
 	-find . -type f -name "*.orig" -exec rm -f "{}" \; 
 	-find . -type f -name "*.rej" -exec rm -f "{}" \;
-	-find . -type f -name "*.pyc" -exec rm -f "{}" \;
+	-find . -type f -name "*.pyc" -exec rm -f "{}" \; 
 	-find . -type f -name "*.parse-index" -exec rm -f "{}" \;
 
 doc :
