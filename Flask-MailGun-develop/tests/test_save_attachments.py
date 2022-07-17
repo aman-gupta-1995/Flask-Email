@@ -13,7 +13,7 @@ from flask_mailgun.attachment import save_attachments
 from tests.fixtures import get_attachment
 from tests import MailgunTestBase
 
-
+ 
 class SaveAttachmentTest(MailgunTestBase):
     def setUp(self):
         super(SaveAttachmentTest, self).setUp()

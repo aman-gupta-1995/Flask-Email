@@ -6,7 +6,7 @@ Created on Mon May  9 15:41:03 2016
 """
 import os
 
-# MailGun parameters
+# MailGun parameters 
 MAILGUN_ROUTE = 'uploads'
 MAILGUN_DOMAIN = 'example.com'
 MAILGUN_API_URL = 'https://api.mailgun.net/v3'
