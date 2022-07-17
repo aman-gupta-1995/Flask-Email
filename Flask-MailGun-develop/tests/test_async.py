@@ -10,7 +10,7 @@ def runner(fun):
     for result in results:
         result.wait()
         result.get()
-
+ 
 
 def foo(arg):
     time.sleep(0.1)

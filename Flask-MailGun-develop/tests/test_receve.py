@@ -12,7 +12,7 @@ from flask_mailgun.utils import MailGunException
 from mock import MagicMock
 
 from collections import namedtuple
-
+ 
 from tests import MailgunTestBase
 from tests.fixtures.email import make_email_request, make_email, sign_email
    

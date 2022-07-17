@@ -7,7 +7,7 @@ Created on Mon May  9 15:33:58 2016
 import unittest
 from tests import MailgunTestBase
 
-
+ 
 class MailGunApiTest(MailgunTestBase):
     def test_sendpoint(self):
         self.assertEqual(self.mailgun.mailgun_api.sendpoint,

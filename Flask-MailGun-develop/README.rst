@@ -18,7 +18,7 @@ as a drop in replacement for ``flask_mail``
 
 Usage
 -----
-
+ 
 .. code:: python
 
     from flask_mailgun import MailGun
