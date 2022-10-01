@@ -29,7 +29,7 @@ requirements = [str(ir.req) for ir in requirements]
 __NAME__ = 'Flask-MailGun3'
 __doc__ = readme
 __author__ = 'Amey-SAM'
-__license__ = 'MIT'
+__license__ = 'MIT' 
 __copyright__ = '2016'
 
 setup( 
