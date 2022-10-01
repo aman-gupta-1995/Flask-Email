@@ -32,7 +32,7 @@ __author__ = 'Amey-SAM'
 __license__ = 'MIT'
 __copyright__ = '2016'
 
-setup(
+setup( 
     name=__NAME__,
     version=version,
     license=__license__,
