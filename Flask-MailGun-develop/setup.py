@@ -3,7 +3,7 @@
 """ 
 Flask-MailGun
 Flask extension to use the Mailgun email parsing service   
-for sending and receving emails   
+for sending and receving emails    
 """         
 try: # for pip >= 10       
     from pip._internal.req import parse_requirements
